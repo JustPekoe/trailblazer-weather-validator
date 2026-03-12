@@ -7,4 +7,4 @@ Python Tech Stack: Pytest, JSONSchema, responses (for mocking).
 
 SDET Twist: Implement Contract Testing. Use Python to verify that the Weather API's response matches a specific schema. If the API adds a new field or changes a data type (e.g., temp changes from int to float), your test should catch the "contract breach."
 
-Why it works: This mimics the "service-to-service" communication at Telus, where one team’s API change might break another team’s UI.
+Why it works: This mimics the "service-to-service" communication, where one team’s API change might break another team’s UI.
